@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+}
+
+.main {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.logo {
+    margin: 0px 0px 0px 20px;
+}
+
+
+.list1 ul {
+    list-style-type: none;
+    display: flex;
+    width: 700px;
+}
+
+.list1 ul li {
+    margin: 0px 0px 0px 20px;
+}
+
+/* .list2{
+    background-color: #0067B8;
+} */
+
+
+.list2 {
+    width: 900px;
+    margin: 0px 0px 0px 500px;
+    display: flex;
+ 
+    /* background-color: greenyellow; */
+}
+
+.list2 ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.list2 ul li {
+    margin: 0px 0px 0px 20px;
+}
+
+.frontimg {
+    background-image: url(./main\ pic\ new.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 600px;
+    display: flex;
+
+}
+
+.fronttext {
+    /* background-color: aqua; */
+    height: 200px;
+    margin: 250px 0px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fronttext p{
+    font-size: 20px;
+}
+
+
+.copilot {
+    background-color: #0067B8;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.cardpics {
+    /* background-color: rgb(153, 201, 20); */
+    height: 500px;
+    display: flex;
+    margin: 100px 100px 0px 100px;
+    font-size: 20px;
+}
+
+.card1 {
+    height: 500px;
+    /* background-color: blueviolet; */
+    width: 297px;
+    /* margin: 0px 0px 0px 50px; */
+}
+
+.card2,
+.card3,
+.card4 {
+
+    height: 300px;
+    /* background-color: blueviolet; */
+    width: 297px;
+    margin: 0px 0px 0px 155px;
+
+}
+
+a {
+    /* background-color: black; */
+    text-decoration: none;
+    color: #0067B8;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cardtext1,
+.cardtext2,
+.cardtext3,
+.cardtext4 {
+    /* background-color: yellow; */
+    height: 200px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    /* width: 297px; */
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.nextpic {
+    background-image: url(next\ pic.webp);
+    background-color: black;
+    height: 600px;
+    display: flex;
+    margin: 0px 100px 0px 100px;
+}
+
+.nextpictext {
+    height: 120px;
+    margin: 300px 0px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+.Download {
+    background-color: #0067B8;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* For Business card */
+.bcardpics {
+    height: 350px;
+    display: flex;
+    margin: 100px 100px 20px 100px;
+    /* background-color: black; */
+    /* align-items: center; */
+    font-size: 20px;
+
+}
+
+.bcard1 {
+    /* background-color: rebeccapurple; */
+    width: 297px;
+}
+
+.bcard2,
+.bcard3,
+.bcard4 {
+    /* background-color: rebeccapurple; */
+    width: 297px;
+    margin: 0px 0px 0px 170px;
+}
+
+
+.bcardtext1,
+.bcardtext2,
+.bcardtext3,
+.bcardtext4 {
+    /* background-color: red; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+span {
+    background-color: #fec425;
+    height: 30px;
+    width: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer {
+    background-color: #f2f2f2;
+    height: 550px;
+    display: flex;
+}
+
+.footer1 {
+    /* background-color: #fec425; */
+    margin: 50px 0px 0px 80px;
+}
+
+.footer1 ul li,
+.footer2 ul li,
+.footer3 ul li,
+.footer4 ul li,
+.footer5 ul li {
+    list-style-type: none;
+}
+
+.footer2,
+.footer3,
+.footer4,
+.footer5 {
+    /* background-color: #fec425; */
+    width: 300px;
+    margin: 50px 0px 0px 80px;
+}
+
+h4 {
+    margin: 0px 0px 20px 38px;
+    color: #616161;
+    font-size: 25px;
+}
+
+li {
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.mediaicons {
+    /* background-color: #fec425; */
+    height: 50px;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 150px 0px 0px 100px;
+
+}
+
+i {
+    margin: 0px 0px 0px 30px;
+}
+
+.backtotop {
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 150px;
+    margin: 50px 10px 50px 1700px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
